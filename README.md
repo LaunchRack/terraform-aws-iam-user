@@ -13,8 +13,6 @@
 
 [![GitHub license](https://img.shields.io/github/license/launchrack/terraform-aws-iam-user?color=blue)](https://github.com/LaunchRack/terraform-aws-iam-user/blob/main/LICENSE)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/launchrack/terraform-aws-iam-user?color=blue&display_name=release)
-[![lint](https://github.com/launchrack/terraform-aws-iam-user/actions/workflows/lint.yaml/badge.svg)](https://github.com/launchrack/terraform-aws-iam-user/actions/workflows/lint.yaml)
-[![scan](https://github.com/launchrack/terraform-aws-iam-user/actions/workflows/scan.yml/badge.svg)](https://github.com/launchrack/terraform-aws-iam-user/actions/workflows/scan.yml)
 
 Creates IAM user, IAM login profile, IAM access key and Uploads IAM SSH user public key. All of these are optional resources.
 
