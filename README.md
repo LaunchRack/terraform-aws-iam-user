@@ -55,6 +55,28 @@ module "aws_iam_user" {
 
 > **Note:** The `terraform.tfvars` file will need to be created in the root directory with value overrides
 
+## Requirements
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement_terraform) | ~> 1.0 |
+| <a name="requirement_aws"></a> [aws](#requirement_aws) | ~> 4.0 |
+| <a name="requirement_local"></a> [local](#requirement_local) | ~> 2.0 |
+| <a name="requirement_null"></a> [null](#requirement_null) | ~> 3.0 |
+
+## Providers
+| Name | Version |
+|------|---------|
+| <a name="provider_aws"></a> [aws](#provider_aws) | ~> 4.0 |
+
+## Resources
+| Name | Type |
+|------|------|
+| [aws_iam_access_key.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_access_key) | resource |
+| [aws_iam_access_key.this_no_pgp](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_access_key) | resource |
+| [aws_iam_user.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user) | resource |
+| [aws_iam_user_login_profile.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user_login_profile) | resource |
+| [aws_iam_user_ssh_key.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user_ssh_key) | resource |
+
 ## Inputs
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
@@ -72,6 +94,7 @@ module "aws_iam_user" {
 | <a name="input_ssh_public_key"></a> [ssh_public_key](#input_ssh_public_key) | The SSH public key. The public key must be encoded in ssh-rsa format or PEM format. | `string` | `""` | no |
 | <a name="input_tags"></a> [tags](#input_tags) | A map of tags for the resources. | `map(string)` | `{}` | no |
 | <a name="input_upload_iam_user_ssh_key"></a> [upload_iam_user_ssh_key](#input_upload_iam_user_ssh_key) | Whether to upload a public ssh key to the IAM user. | `bool` | `false` | no |
+
 ## Outputs
 | Name | Description |
 |------|-------------|
