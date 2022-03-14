@@ -4,14 +4,7 @@ resource "aws_iam_user" "this" {
   path                 = var.path
   force_destroy        = var.force_destroy
   permissions_boundary = var.permissions_boundary
-  tags = merge(
-    {
-      OwnedBy     = var.owned_by
-      ManagedBy   = var.managed_by
-      Pipeline_Id = var.pipeline_id
-    },
-    var.tags,
-  )
+  tags                 = var.tags
 }
 
 resource "aws_iam_user_login_profile" "this" {

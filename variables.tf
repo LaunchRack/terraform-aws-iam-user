@@ -75,25 +75,8 @@ variable "permissions_boundary" {
   default     = ""
 }
 
-variable "owned_by" {
-  description = "The name of the company who owns the resources."
-  type        = string
-  default     = ""
-}
-
-variable "managed_by" {
-  description = "The name of the tool that manages the resources."
-  type        = string
-  default     = ""
-}
-
-variable "pipeline_id" {
-  description = "The CI pipeline id number."
-  type        = number
-}
-
 variable "tags" {
-  description = "Additional tags."
+  description = "A map of tags for the resources."
   type        = map(string)
   default     = {}
 }

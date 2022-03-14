@@ -15,10 +15,8 @@ provider "aws" {
 module "aws_iam_user" {
   source = "../"
 
-  owned_by      = var.owned_by
-  managed_by    = var.managed_by
   name          = var.name
   force_destroy = var.force_destroy
   pgp_key       = var.pgp_key
-  pipeline_id   = var.pipeline_id
+  tags          = var.tags
 }
