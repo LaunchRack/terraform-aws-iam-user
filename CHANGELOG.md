@@ -4,5 +4,5 @@
 # 0.1.1
 - Fixing Tags
 
-# 0.1.1
-- Updated Readme to new format
+# 0.1.2
+- Updated Readme format
