@@ -15,13 +15,13 @@ We are huge followers of the <b>Cloud-Native DevOps</b> movement and are firm be
 </p>
 
 <p style="text-align: left;">
-✔ Better <b>utilization</b> of cloud resources by 40% <br>
-✔ Self-service infrastructure <b>provisioning</b> by 35% <br>
-✔ <b>Security</b> and governance by 30% <br>
-✔ Return on value/investment by 20% <br>
-✔ Team management & <b>governance</b> by 15% <br>
-✔ Earlier <b>detection</b> of bugs by 32% <br>
-✔ Response to issues/events by 23% <br>
+✅ Better <b>utilization</b> of cloud resources by 40% <br>
+✅ Self-service infrastructure <b>provisioning</b> by 35% <br>
+✅ <b>Security</b> and governance by 30% <br>
+✅ Return on value/investment by 20% <br>
+✅ Team management & <b>governance</b> by 15% <br>
+✅ Earlier <b>detection</b> of bugs by 32% <br>
+✅ Response to issues/events by 23% <br>
 </p>
 
 <p>
